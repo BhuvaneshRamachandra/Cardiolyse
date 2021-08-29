@@ -16,7 +16,7 @@ docker image push YOUR_DOCKER_ID/cardiolyse:tag
 
 ## Steps to download and run image as a container:
 
- 1. Fist make sure git and docker is installed in your windows machine by running following command.
+ 1. First make sure git and docker is installed in your windows machine by running following command.
  
 	```bash
 	git version
@@ -38,18 +38,18 @@ docker image push YOUR_DOCKER_ID/cardiolyse:tag
  4. Run the docker image as a container using following command either in interative command or as a background procees:
     
 	-- used to run in background
-		```bash
+	```bash
 	docker container run -d --name health -p 8000:8081 040591/cardiolyse:first 
-		```
+	```
 	
 	or 
 	
 	-- used to run in interactive mode:
-		```bash
-		docker container run -it --name health -p 8000:8081 040591/cardiolyse:first 
-		```
+	```bash
+	docker container run -it --name health -p 8000:8081 040591/cardiolyse:first 
+	```
 		
-		Go to Steps to run the application if you want to verify if application is running.
+ #Go to Steps to run the application if you want to verify if application is running.
 
   5. Check if the container is running
   	```bash
@@ -72,7 +72,7 @@ docker image push YOUR_DOCKER_ID/cardiolyse:tag
 	```
 	
 	
- ##Steps to run the application:
+ ## Steps to run the application:
 
 1. Check if the application is running in local machine(No authentication is added):
 
