@@ -49,7 +49,7 @@ docker image push YOUR_DOCKER_ID/cardiolyse:tag
 	docker container run -it --name health -p 8000:8081 040591/cardiolyse:first 
 	```
 		
- #Go to Steps to run the application if you want to verify if application is running.
+ # Go to Steps to run the application if you want to verify if application is running.
 
   5. Check if the container is running
   	```bash
