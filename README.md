@@ -49,39 +49,40 @@ docker image push YOUR_DOCKER_ID/cardiolyse:tag
 	docker container run -it --name health -p 8000:8081 040591/cardiolyse:first 
 	```
 		
- # Go to Steps to run the application if you want to verify if application is running.
+    Go to Steps to run the application if you want to verify if application is running.
 
   5. Check if the container is running
-  	```bash
-     docker container ls
-	 ```
+  
+```bash
+docker container ls
+```
 	 
   6. To stop the container:
-  	```bash
-     docker container stop health 
-	 ```
+```bash
+docker container stop health 
+```
 	 
   7. To start the container :
-  	```bash
-     docker container start health 
-	 ```
+```bash
+docker container start health 
+```
    
   8. To remove the container:
-  	```bash
-    docker container rm health
-	```
+```bash
+docker container rm health
+```
 	
 	
  ## Steps to run the application:
 
 1. Check if the application is running in local machine(No authentication is added):
 
-	```python
-    http://localhost:8000/api/reverse/test
-	```
+```python
+http://localhost:8000/api/reverse/test
+```
 	
 2. You will be redirected error page if you enter the wrong URL
-	```python
-   http://localhost:8000/api/reverse/
-   	```
+```python
+http://localhost:8000/api/reverse/
+```
 
